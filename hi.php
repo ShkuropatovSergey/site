@@ -1,7 +1,7 @@
 <?php
     //<div class="wrapper"> 
-    $hour = date('h');
-if (6 <= $hour && $hour < 11) {
+    $hour = date('G');
+if (06 <= $hour && $hour < 11) {
 ?>
     <h1 style="color: red" class="hi">Доброе утро!<br>Добро пожаловать на наш сайт</h1>
 <?
@@ -17,7 +17,7 @@ if (6 <= $hour && $hour < 11) {
 <?
 
 } else
-    if (23 <= $hour || $hour < 6) {
+    if (23 <= $hour || $hour < 06) {
 ?>
     <h1 style="color: blaсk" class="hi">Доброй ночи!<br>Добро пожаловать на наш сайт</h1>
 
